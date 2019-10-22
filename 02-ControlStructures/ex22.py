@@ -4,7 +4,7 @@ suma = 0
 n = 0
 
 for i in tab:
-    if i %2 != 0:
+    if i % 2 != 0:
         suma += i
         n += 1
 print(f"Srednia arytmetyczna wynosi: {suma/n}")
