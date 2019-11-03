@@ -1,6 +1,5 @@
-with open('C:/Users/s-115-29/Desktop/pp1/03-FileHandling/ShoppingList.txt', 'a') as file:
-    file.write('\njajka')
-    
-
-    
-    
+x = 1
+with open('./NoEducation.txt','r') as file:
+    for line in file:
+        print(f'{x}. {line}', end = '')
+        x += 1

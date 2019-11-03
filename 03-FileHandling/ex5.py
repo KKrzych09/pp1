@@ -1,9 +1,0 @@
-# wariant 1
-#file = open('C:/Users/s-115-29/Desktop/pp1/03-FileHandling/NoEducation.txt','r')
-#print(file.read())
-#file.close()
-
-#wariant 2
-with open('C:/Users/s-115-29/Desktop/pp1/03-FileHandling/NoEducation.txt','r') as file:
-    print(file.read())
-    

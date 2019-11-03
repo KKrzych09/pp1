@@ -1,4 +1,5 @@
-tab = [32, 16, 5, 8, 24, 7]
-with open('C:/Users/s-115-29/Desktop/pp1/03-FileHandling/tablica.txt', 'a') as file:
-    for i in tab:
-        print(tab[])
+suma = 0
+with open('./numbers.txt','r') as file:
+    for line in file:
+        suma += int(line)
+    print(f'{suma}')
