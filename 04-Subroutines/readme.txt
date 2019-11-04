@@ -1,0 +1,1 @@
+ex14 do poprawki
