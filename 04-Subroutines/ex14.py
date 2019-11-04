@@ -12,10 +12,14 @@ def wystepuje(liczba,tablica):
     print('\nRezultat: ', end = '')
     while k < len(tablica):
         if liczba == tablica[k]:
-            print('Podana liczba wystepuje w tablicy')
+            m = 1
             break
         elif liczba != tablica[k]:
-            print('Podana liczba nie wystepuje w tablicy')
+            m = 0
         k += 1
+    if m == 1:
+        print("Liczba znajduje się w tablicy.")
+    else:
+        print("Liczba nie znajduje się w tablicy.")
 wystepuje(digit, tab)
     
