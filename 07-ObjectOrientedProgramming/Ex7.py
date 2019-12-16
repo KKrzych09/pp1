@@ -15,3 +15,6 @@ class Student():
     
 uczen1 = Student("Marian", "Kowalski", "Informatyka Stosowana")
 print(uczen1)
+
+uczen2 = Student("Stefan", "Nowak", "Informatyka Stosowana")
+print(uczen2)
