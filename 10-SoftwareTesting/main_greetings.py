@@ -3,7 +3,7 @@ def say_hi():
 
 def main():
     say_hi()
-    print("I'a a student")
+    print("I'm a student")
 
 if __name__ == "__main__":
     main()
