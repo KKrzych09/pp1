@@ -17,8 +17,9 @@ class common_fraction():
 fraction = common_fraction(1,2)
 fraction.display()
 
-fraction2 = common_fraction(12,21)
+fraction2 = common_fraction(12,24)
 fraction2.display()
+fraction2.simplify()
 
 fraction3 = common_fraction(7,49)
 fraction3.display()

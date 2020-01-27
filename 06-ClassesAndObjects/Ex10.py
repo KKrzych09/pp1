@@ -9,7 +9,7 @@ class TV():
         self.is_on = False
         
     def show_status(self):
-        print("Telewizor jest załączony" if self.is_on else "Telewizor jest wyłączony")
+        print("Telewizor jest włączony" if self.is_on else "Telewizor jest wyłączony")
 
 tv = TV()
 tv.show_status()

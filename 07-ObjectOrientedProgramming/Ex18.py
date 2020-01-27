@@ -30,7 +30,7 @@ class Vehicle():
     
     
     def set_rented(self):
-        self.is_renter = False
+        self.is_rented = False
 
 
 class Passenger_car(Vehicle):

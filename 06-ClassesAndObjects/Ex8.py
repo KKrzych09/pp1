@@ -16,3 +16,5 @@ uniwerek.print_name()
 
 uniwerek.new_name = 'AGH'
 print(uniwerek.new_name)
+
+uniwerek.set_name('UJ')

@@ -15,8 +15,8 @@ class Point():
                 return f'Odległość pomiędzy punktami wynosi {d}'
          
 
-p1 = Point(2, 5)
-p2 = Point(5, 9)
+p1 = Point(3, 5)
+p2 = Point(5, 8)
 
 print(p1 == p2)
 
